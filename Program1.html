@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program1</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script type= "text/JavaScript">
+    var primer = Number (prompt("ingrese el primer número: "));
+    var segundo= Number (prompt("ingrese el segundo número: "));
+    var tercer = Number (prompt("ingrese el tercer número: "));
+
+    if (primer == segundo && primer == tercer){
+        document.write("Los tres números son iguales y valen:"+primer+".");
+    }
+    else{
+        if (primer > segundo && primer > tercer){
+            document.write("El número mayor es:"+primer+".");
+        }
+    else {
+    if (segundo > primer && segundo > tercer){
+        document.write("El número mayor es:"+segundo+".");
+    }
+     else {
+        document.write("El número mayor es:"+tercer+".");
+    }
+}
+}
+
+document.write("<br />Primer número:"+primer)
+document.write("<br />Segundo número:"+segundo)
+document.write("<br />Tercer número:"+tercer)
+</script>
